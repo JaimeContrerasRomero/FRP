@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FRPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cuestionario">
+          <Key>
+            <PropertyRef Name="IdCuestionario" />
+          </Key>
+          <Property Name="IdCuestionario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Pregunta01" Type="int" Nullable="false" />
+          <Property Name="Pregunta02" Type="int" Nullable="false" />
+          <Property Name="Pregunta03" Type="int" Nullable="false" />
+          <Property Name="Pregunta04" Type="int" Nullable="false" />
+          <Property Name="Pregunta05" Type="int" Nullable="false" />
+          <Property Name="Pregunta06" Type="int" Nullable="false" />
+          <Property Name="Pregunta07" Type="int" Nullable="false" />
+          <Property Name="Pregunta08" Type="int" Nullable="false" />
+          <Property Name="Pregunta09" Type="int" Nullable="false" />
+          <Property Name="Pregunta10" Type="int" Nullable="false" />
+          <Property Name="Pregunta11" Type="int" Nullable="false" />
+          <Property Name="Pregunta12" Type="int" Nullable="false" />
+          <Property Name="Pregunta13" Type="int" Nullable="false" />
+          <Property Name="Pregunta14" Type="int" Nullable="false" />
+          <Property Name="Pregunta15" Type="int" Nullable="false" />
+          <Property Name="Pregunta16" Type="int" Nullable="false" />
+          <Property Name="Pregunta17" Type="int" Nullable="false" />
+          <Property Name="Pregunta18" Type="int" Nullable="false" />
+          <Property Name="Pregunta19" Type="int" Nullable="false" />
+          <Property Name="Pregunta20" Type="int" Nullable="false" />
+          <Property Name="Pregunta21" Type="int" Nullable="false" />
+          <Property Name="Pregunta22" Type="int" Nullable="false" />
+          <Property Name="Pregunta23" Type="int" Nullable="false" />
+          <Property Name="Pregunta24" Type="int" Nullable="false" />
+          <Property Name="Pregunta25" Type="int" Nullable="false" />
+          <Property Name="Pregunta26" Type="int" Nullable="false" />
+          <Property Name="Pregunta27" Type="int" Nullable="false" />
+          <Property Name="Pregunta28" Type="int" Nullable="false" />
+          <Property Name="Pregunta29" Type="int" Nullable="false" />
+          <Property Name="Pregunta30" Type="int" Nullable="false" />
+          <Property Name="Pregunta31" Type="int" Nullable="false" />
+          <Property Name="Pregunta32" Type="int" Nullable="false" />
+          <Property Name="Pregunta33" Type="int" Nullable="false" />
+          <Property Name="Pregunta34" Type="int" Nullable="false" />
+          <Property Name="Pregunta35" Type="int" Nullable="false" />
+          <Property Name="Pregunta36" Type="int" Nullable="false" />
+          <Property Name="Pregunta37" Type="int" Nullable="false" />
+          <Property Name="Pregunta38" Type="int" Nullable="false" />
+          <Property Name="Pregunta39" Type="int" Nullable="false" />
+          <Property Name="Pregunta40" Type="int" Nullable="false" />
+          <Property Name="Pregunta41" Type="int" Nullable="false" />
+          <Property Name="Pregunta42" Type="int" Nullable="false" />
+          <Property Name="Pregunta43" Type="int" Nullable="false" />
+          <Property Name="Pregunta44" Type="int" Nullable="false" />
+          <Property Name="Pregunta45" Type="int" Nullable="false" />
+          <Property Name="Pregunta46" Type="int" Nullable="false" />
+          <Property Name="Pregunta47" Type="int" Nullable="false" />
+          <Property Name="Pregunta48" Type="int" Nullable="false" />
+          <Property Name="Pregunta49" Type="int" Nullable="false" />
+          <Property Name="Pregunta50" Type="int" Nullable="false" />
+          <Property Name="Pregunta51" Type="int" Nullable="false" />
+          <Property Name="Pregunta52" Type="int" Nullable="false" />
+          <Property Name="Pregunta53" Type="int" Nullable="false" />
+          <Property Name="Pregunta54" Type="int" Nullable="false" />
+          <Property Name="Pregunta55" Type="int" Nullable="false" />
+          <Property Name="Pregunta56" Type="int" Nullable="false" />
+          <Property Name="Pregunta57" Type="int" Nullable="false" />
+          <Property Name="Pregunta58" Type="int" Nullable="false" />
+          <Property Name="Pregunta59" Type="int" Nullable="false" />
+          <Property Name="Pregunta60" Type="int" Nullable="false" />
+          <Property Name="Pregunta61" Type="int" Nullable="false" />
+          <Property Name="Pregunta62" Type="int" Nullable="false" />
+          <Property Name="Pregunta63" Type="int" Nullable="false" />
+          <Property Name="Pregunta64" Type="int" Nullable="false" />
+          <Property Name="ServicioCliente" Type="bit" Nullable="false" />
+          <Property Name="Pregunta65" Type="int" />
+          <Property Name="Pregunta66" Type="int" />
+          <Property Name="Pregunta67" Type="int" />
+          <Property Name="Pregunta68" Type="int" />
+          <Property Name="JefeTrabajadores" Type="bit" Nullable="false" />
+          <Property Name="Pregunta69" Type="int" />
+          <Property Name="Pregunta70" Type="int" />
+          <Property Name="Pregunta71" Type="int" />
+          <Property Name="Pregunta72" Type="int" />
+        </EntityType>
+        <EntityContainer Name="FRPModelStoreContainer">
+          <EntitySet Name="Cuestionario" EntityType="Self.Cuestionario" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FRPModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cuestionario">
+          <Key>
+            <PropertyRef Name="IdCuestionario" />
+          </Key>
+          <Property Name="IdCuestionario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Pregunta01" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta02" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta03" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta04" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta05" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta06" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta07" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta08" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta09" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta10" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta11" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta12" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta13" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta14" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta15" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta16" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta17" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta18" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta19" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta20" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta21" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta22" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta23" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta24" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta25" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta26" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta27" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta28" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta29" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta30" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta31" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta32" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta33" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta34" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta35" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta36" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta37" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta38" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta39" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta40" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta41" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta42" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta43" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta44" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta45" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta46" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta47" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta48" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta49" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta50" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta51" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta52" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta53" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta54" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta55" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta56" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta57" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta58" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta59" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta60" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta61" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta62" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta63" Type="Int32" Nullable="false" />
+          <Property Name="Pregunta64" Type="Int32" Nullable="false" />
+          <Property Name="ServicioCliente" Type="Boolean" Nullable="false" />
+          <Property Name="Pregunta65" Type="Int32" />
+          <Property Name="Pregunta66" Type="Int32" />
+          <Property Name="Pregunta67" Type="Int32" />
+          <Property Name="Pregunta68" Type="Int32" />
+          <Property Name="JefeTrabajadores" Type="Boolean" Nullable="false" />
+          <Property Name="Pregunta69" Type="Int32" />
+          <Property Name="Pregunta70" Type="Int32" />
+          <Property Name="Pregunta71" Type="Int32" />
+          <Property Name="Pregunta72" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="FRPEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cuestionario" EntityType="Self.Cuestionario" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FRPModelStoreContainer" CdmEntityContainer="FRPEntities">
+          <EntitySetMapping Name="Cuestionario">
+            <EntityTypeMapping TypeName="FRPModel.Cuestionario">
+              <MappingFragment StoreEntitySet="Cuestionario">
+                <ScalarProperty Name="IdCuestionario" ColumnName="IdCuestionario" />
+                <ScalarProperty Name="Pregunta01" ColumnName="Pregunta01" />
+                <ScalarProperty Name="Pregunta02" ColumnName="Pregunta02" />
+                <ScalarProperty Name="Pregunta03" ColumnName="Pregunta03" />
+                <ScalarProperty Name="Pregunta04" ColumnName="Pregunta04" />
+                <ScalarProperty Name="Pregunta05" ColumnName="Pregunta05" />
+                <ScalarProperty Name="Pregunta06" ColumnName="Pregunta06" />
+                <ScalarProperty Name="Pregunta07" ColumnName="Pregunta07" />
+                <ScalarProperty Name="Pregunta08" ColumnName="Pregunta08" />
+                <ScalarProperty Name="Pregunta09" ColumnName="Pregunta09" />
+                <ScalarProperty Name="Pregunta10" ColumnName="Pregunta10" />
+                <ScalarProperty Name="Pregunta11" ColumnName="Pregunta11" />
+                <ScalarProperty Name="Pregunta12" ColumnName="Pregunta12" />
+                <ScalarProperty Name="Pregunta13" ColumnName="Pregunta13" />
+                <ScalarProperty Name="Pregunta14" ColumnName="Pregunta14" />
+                <ScalarProperty Name="Pregunta15" ColumnName="Pregunta15" />
+                <ScalarProperty Name="Pregunta16" ColumnName="Pregunta16" />
+                <ScalarProperty Name="Pregunta17" ColumnName="Pregunta17" />
+                <ScalarProperty Name="Pregunta18" ColumnName="Pregunta18" />
+                <ScalarProperty Name="Pregunta19" ColumnName="Pregunta19" />
+                <ScalarProperty Name="Pregunta20" ColumnName="Pregunta20" />
+                <ScalarProperty Name="Pregunta21" ColumnName="Pregunta21" />
+                <ScalarProperty Name="Pregunta22" ColumnName="Pregunta22" />
+                <ScalarProperty Name="Pregunta23" ColumnName="Pregunta23" />
+                <ScalarProperty Name="Pregunta24" ColumnName="Pregunta24" />
+                <ScalarProperty Name="Pregunta25" ColumnName="Pregunta25" />
+                <ScalarProperty Name="Pregunta26" ColumnName="Pregunta26" />
+                <ScalarProperty Name="Pregunta27" ColumnName="Pregunta27" />
+                <ScalarProperty Name="Pregunta28" ColumnName="Pregunta28" />
+                <ScalarProperty Name="Pregunta29" ColumnName="Pregunta29" />
+                <ScalarProperty Name="Pregunta30" ColumnName="Pregunta30" />
+                <ScalarProperty Name="Pregunta31" ColumnName="Pregunta31" />
+                <ScalarProperty Name="Pregunta32" ColumnName="Pregunta32" />
+                <ScalarProperty Name="Pregunta33" ColumnName="Pregunta33" />
+                <ScalarProperty Name="Pregunta34" ColumnName="Pregunta34" />
+                <ScalarProperty Name="Pregunta35" ColumnName="Pregunta35" />
+                <ScalarProperty Name="Pregunta36" ColumnName="Pregunta36" />
+                <ScalarProperty Name="Pregunta37" ColumnName="Pregunta37" />
+                <ScalarProperty Name="Pregunta38" ColumnName="Pregunta38" />
+                <ScalarProperty Name="Pregunta39" ColumnName="Pregunta39" />
+                <ScalarProperty Name="Pregunta40" ColumnName="Pregunta40" />
+                <ScalarProperty Name="Pregunta41" ColumnName="Pregunta41" />
+                <ScalarProperty Name="Pregunta42" ColumnName="Pregunta42" />
+                <ScalarProperty Name="Pregunta43" ColumnName="Pregunta43" />
+                <ScalarProperty Name="Pregunta44" ColumnName="Pregunta44" />
+                <ScalarProperty Name="Pregunta45" ColumnName="Pregunta45" />
+                <ScalarProperty Name="Pregunta46" ColumnName="Pregunta46" />
+                <ScalarProperty Name="Pregunta47" ColumnName="Pregunta47" />
+                <ScalarProperty Name="Pregunta48" ColumnName="Pregunta48" />
+                <ScalarProperty Name="Pregunta49" ColumnName="Pregunta49" />
+                <ScalarProperty Name="Pregunta50" ColumnName="Pregunta50" />
+                <ScalarProperty Name="Pregunta51" ColumnName="Pregunta51" />
+                <ScalarProperty Name="Pregunta52" ColumnName="Pregunta52" />
+                <ScalarProperty Name="Pregunta53" ColumnName="Pregunta53" />
+                <ScalarProperty Name="Pregunta54" ColumnName="Pregunta54" />
+                <ScalarProperty Name="Pregunta55" ColumnName="Pregunta55" />
+                <ScalarProperty Name="Pregunta56" ColumnName="Pregunta56" />
+                <ScalarProperty Name="Pregunta57" ColumnName="Pregunta57" />
+                <ScalarProperty Name="Pregunta58" ColumnName="Pregunta58" />
+                <ScalarProperty Name="Pregunta59" ColumnName="Pregunta59" />
+                <ScalarProperty Name="Pregunta60" ColumnName="Pregunta60" />
+                <ScalarProperty Name="Pregunta61" ColumnName="Pregunta61" />
+                <ScalarProperty Name="Pregunta62" ColumnName="Pregunta62" />
+                <ScalarProperty Name="Pregunta63" ColumnName="Pregunta63" />
+                <ScalarProperty Name="Pregunta64" ColumnName="Pregunta64" />
+                <ScalarProperty Name="ServicioCliente" ColumnName="ServicioCliente" />
+                <ScalarProperty Name="Pregunta65" ColumnName="Pregunta65" />
+                <ScalarProperty Name="Pregunta66" ColumnName="Pregunta66" />
+                <ScalarProperty Name="Pregunta67" ColumnName="Pregunta67" />
+                <ScalarProperty Name="Pregunta68" ColumnName="Pregunta68" />
+                <ScalarProperty Name="JefeTrabajadores" ColumnName="JefeTrabajadores" />
+                <ScalarProperty Name="Pregunta69" ColumnName="Pregunta69" />
+                <ScalarProperty Name="Pregunta70" ColumnName="Pregunta70" />
+                <ScalarProperty Name="Pregunta71" ColumnName="Pregunta71" />
+                <ScalarProperty Name="Pregunta72" ColumnName="Pregunta72" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
