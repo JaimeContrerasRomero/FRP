@@ -80,7 +80,7 @@
                     <!--      Wizard container        -->
                     <div class="wizard-container">
                         <div class="card wizard-card" data-color="red" id="wizard">
-                            <form action="" method="" id="form1" runat="server">
+                            <form id="form1" runat="server">
                                 <!--        You can switch " data-color="green" "  with one of the next bright colors: "blue", "azure", "orange", "red"       -->
                                 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                                 <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
@@ -1292,75 +1292,76 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">65. Atiendo clientes o usuarios muy enojados</h5>
+                                                <div id="divServicioCliente">
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">65. Atiendo clientes o usuarios muy enojados</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta65" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta65" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">66. Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta66" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">67. Para hacer mi trabajo debo demostrar sentimientos distintos a los míos</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta67" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">68. Mi trabajo me exige atender situaciones de violencia</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta68" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">66. Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta66" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">67. Para hacer mi trabajo debo demostrar sentimientos distintos a los míos</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta67" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">68. Mi trabajo me exige atender situaciones de violencia</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta68" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
                                                 <div class="row">
                                                     <div class="col-sm-5 col-sm-offset-1">
                                                         <h5 class="info-text">Soy jefe de otros trabajadores:</h5>
@@ -1375,72 +1376,73 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">69. Comunican tarde los asuntos de trabajo</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta69" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
+                                                <div id="divJefeTrabajadores">
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">69. Comunican tarde los asuntos de trabajo</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta69" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">70. Dificultan el logro de los resultados del trabajo</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta70" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">70. Dificultan el logro de los resultados del trabajo</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta70" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">71. Cooperan poco cuando se necesita</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta71" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">71. Cooperan poco cuando se necesita</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta71" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-5 col-sm-offset-1">
-                                                        <h5 class="info-text">72. Ignoran las sugerencias para mejorar su trabajo</h5>
-                                                    </div>
-                                                    <div class="col-sm-5">
-                                                        <div class="form-group">
-                                                            &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta72" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
-                                                                <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
-                                                                <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
-                                                            </asp:DropDownList>
+                                                    <div class="row">
+                                                        <div class="col-sm-5 col-sm-offset-1">
+                                                            <h5 class="info-text">72. Ignoran las sugerencias para mejorar su trabajo</h5>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="form-group">
+                                                                &nbsp;<br>
+                                                                <asp:DropDownList ID="cboRespuesta72" runat="server" class="form-control">
+                                                                    <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
+                                                                    <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
+                                                                    <asp:ListItem Text="Casi nunca" Value="1"></asp:ListItem>
+                                                                    <asp:ListItem Text="Nunca" Value="0"></asp:ListItem>
+                                                                </asp:DropDownList>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1499,10 +1501,28 @@
 <!--  More information about jquery.validate here: https://jqueryvalidation.org/	 -->
 <script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
 <script type="text/javascript">
+    var divServicioCliente = document.getElementById("divServicioCliente");
+    var divJefeTrabajadores = document.getElementById("divJefeTrabajadores");
+
     $(window).load(function () {
         $(".loader").fadeOut("slow");
         //$(".loader").show();
     });
+
+    $(function () {
+        ServicioCliente();
+        JefeTrabajadores();
+    });
+
+    var prm = Sys.WebForms.PageRequestManager.getInstance();
+    if (prm != null) {
+        prm.add_endRequest(function (sender, e) {
+            if (sender._postBackSettings.panelsToUpdate != null) {
+                ServicioCliente();
+                JefeTrabajadores();
+            }
+        });
+    };
 
     function guardar() {
         //debugger;
@@ -1512,6 +1532,30 @@
 
     function CerrarLoading() {
         $(".loader").fadeOut("slow");
+    }
+
+    function ServicioCliente() {
+        $("[id$=cboServicioCliente]").on('change', function () {
+            var valor = $(this).val();
+            if (valor === "0") {
+                divServicioCliente.style.display = "none";
+            }
+            else {
+                divServicioCliente.style.display = "block";
+            }
+        });
+    }
+
+    function JefeTrabajadores() {
+        $("[id$=cboJefeTrabajadores]").on('change', function () {
+            var valor = $(this).val();
+            if (valor === "0") {
+                divJefeTrabajadores.style.display = "none";
+            }
+            else {
+                divJefeTrabajadores.style.display = "block";
+            }
+        });
     }
 </script>
 
