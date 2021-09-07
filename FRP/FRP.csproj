@@ -113,14 +113,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\paper-bootstrap-wizard.css" />
+    <Content Include="assets\css\themify-icons-demo.css" />
+    <Content Include="assets\css\themify-icons.css" />
+    <Content Include="assets\fonts\themify.svg" />
+    <Content Include="assets\img\apple-icon.png" />
+    <Content Include="assets\img\default-avatar.jpg" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\ITSAV.jpg" />
+    <Content Include="assets\img\new_logo.png" />
+    <Content Include="assets\img\paper-1.jpeg" />
+    <Content Include="assets\img\paper-2.jpeg" />
+    <Content Include="assets\img\paper-3.jpeg" />
+    <Content Include="assets\img\tim_80x80.png" />
+    <Content Include="assets\img\wizard-create-profile.png" />
+    <Content Include="assets\img\wizard-find-desk.png" />
+    <Content Include="assets\img\wizard-list-place.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\demo.js" />
+    <Content Include="assets\js\jquery-2.2.4.min.js" />
+    <Content Include="assets\js\jquery.bootstrap.wizard.js" />
+    <Content Include="assets\js\jquery.validate.min.js" />
+    <Content Include="assets\js\paper-bootstrap-wizard.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -132,6 +155,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Gracias.aspx" />
+    <Content Include="WebForm1.aspx" />
     <EntityDeploy Include="Modelo.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Modelo.Designer.cs</LastGenOutput>
@@ -140,6 +165,28 @@
       <DependentUpon>Modelo.edmx</DependentUpon>
     </Content>
     <Content Include="DataBase\FRP.bak" />
+    <Content Include="assets\fonts\themify.eot" />
+    <Content Include="assets\fonts\themify.ttf" />
+    <Content Include="assets\fonts\themify.woff" />
+    <Content Include="assets\scss\paper-bootstrap-wizard.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\mixins\_buttons.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\mixins\_inputs.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\mixins\_labels.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\mixins\_transparency.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\mixins\_vendor-prefixes.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_buttons.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_card.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_footers.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_inputs.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_labels-progress-bar.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_misc.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_mixins.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_navs-pagination.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_responsive.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_tooltips.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_typography.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_variables.scss" />
+    <Content Include="assets\scss\paper-bootstrap-wizard\_wizard-card.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -179,32 +226,16 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
-    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Cuestionario.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
+    <Compile Include="db.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -212,8 +243,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Gracias.aspx.cs">
+      <DependentUpon>Gracias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gracias.aspx.designer.cs">
+      <DependentUpon>Gracias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo.Context.cs">
       <AutoGen>True</AutoGen>
@@ -231,26 +276,12 @@
       <DependentUpon>Modelo.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.designer.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
