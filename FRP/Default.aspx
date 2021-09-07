@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FRP._Default" %>
+﻿<%@ Page Title="FACTORES DE RIESGO PSICOSOCIAL" Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FRP._Default" %>
 
 <!DOCTYPE html>
 
