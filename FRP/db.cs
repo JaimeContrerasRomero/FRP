@@ -19,7 +19,8 @@ namespace FRP
                 return 1;
             }
             catch (Exception ex)
-            {
+            {                
+                Console.WriteLine("Error: " + ex.Message.ToString());
                 return 0;
             }
         }

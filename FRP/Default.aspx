@@ -100,7 +100,7 @@
                                                         <div class="icon-circle">
                                                             <i class="ti-map"></i>
                                                         </div>
-                                                        Location
+                                                        Inicio
                                                     </a>
                                                 </li>
                                                 <li>
@@ -108,7 +108,7 @@
                                                         <div class="icon-circle">
                                                             <i class="ti-direction-alt"></i>
                                                         </div>
-                                                        Type
+                                                        Vas bien
                                                     </a>
                                                 </li>
                                                 <li>
@@ -116,7 +116,7 @@
                                                         <div class="icon-circle">
                                                             <i class="ti-panel"></i>
                                                         </div>
-                                                        Facilities
+                                                        Excelente
                                                     </a>
                                                 </li>
                                                 <li>
@@ -124,7 +124,7 @@
                                                         <div class="icon-circle">
                                                             <i class="ti-comments"></i>
                                                         </div>
-                                                        Comments
+                                                        Ya casi
                                                     </a>
                                                 </li>
                                             </ul>
@@ -158,7 +158,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta02" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta02" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -175,7 +175,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta03" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta03" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -192,7 +192,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta04" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta04" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -209,7 +209,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta05" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta05" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -247,7 +247,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta07" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta07" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -264,7 +264,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta08" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta08" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -285,7 +285,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta09" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta09" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -302,7 +302,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta10" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta10" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -319,7 +319,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta11" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta11" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -336,7 +336,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta12" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta12" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -357,7 +357,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta13" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta13" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -374,7 +374,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta14" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta14" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -391,7 +391,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta15" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta15" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -408,7 +408,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta16" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta16" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -434,7 +434,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta17" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta17" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -451,7 +451,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta18" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta18" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -468,7 +468,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta19" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta19" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -485,7 +485,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta20" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta20" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -502,7 +502,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta21" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta21" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -519,7 +519,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta22" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta22" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -540,7 +540,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta23" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta23" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -557,7 +557,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta24" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta24" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -574,7 +574,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta25" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta25" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -591,7 +591,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta26" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta26" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -608,7 +608,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta27" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta27" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -625,7 +625,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta28" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta28" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -646,7 +646,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta29" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta29" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -663,7 +663,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta30" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta30" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -684,7 +684,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta31" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta31" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -701,7 +701,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta32" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta32" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -718,7 +718,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta33" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta33" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -735,7 +735,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta34" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta34" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -752,7 +752,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta35" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta35" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -769,7 +769,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta36" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta36" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -791,7 +791,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta37" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta37" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -808,7 +808,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta38" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta38" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -825,7 +825,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta39" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta39" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -842,7 +842,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta40" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta40" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -859,7 +859,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta41" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta41" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -880,7 +880,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta42" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta42" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -897,7 +897,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta43" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta43" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -914,7 +914,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta44" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta44" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -931,7 +931,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta45" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta45" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -948,7 +948,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta46" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta46" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -969,7 +969,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta47" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta47" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -986,7 +986,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta48" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta48" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1003,7 +1003,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta49" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta49" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1020,7 +1020,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta50" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta50" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1037,7 +1037,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta51" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta51" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1054,7 +1054,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta52" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta52" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1071,7 +1071,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta53" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta53" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1088,7 +1088,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta54" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta54" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1105,7 +1105,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta55" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta55" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1122,7 +1122,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta56" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta56" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1145,7 +1145,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta57" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta57" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1162,7 +1162,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta58" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta58" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1179,7 +1179,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta59" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta59" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1196,7 +1196,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta60" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta60" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1213,7 +1213,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta61" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta61" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1230,7 +1230,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta62" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta62" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1247,7 +1247,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta63" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta63" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1264,7 +1264,7 @@
                                                     <div class="col-sm-5">
                                                         <div class="form-group">
                                                             &nbsp;<br>
-                                                            <asp:DropDownList ID="cboRespuesta64" runat="server" class="form-control">
+                                                            <asp:DropDownList ID="cboPregunta64" runat="server" class="form-control">
                                                                 <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                 <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                 <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1286,8 +1286,8 @@
                                                         <div class="form-group">
                                                             &nbsp;<br>
                                                             <asp:DropDownList ID="cboServicioCliente" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Sí" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="No" Value="0"></asp:ListItem>
+                                                                <asp:ListItem Text="Sí" Value="true"></asp:ListItem>
+                                                                <asp:ListItem Text="No" Value="false"></asp:ListItem>
                                                             </asp:DropDownList>
                                                         </div>
                                                     </div>
@@ -1300,7 +1300,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta65" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta65" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1317,7 +1317,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta66" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta66" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1334,7 +1334,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta67" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta67" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1351,7 +1351,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta68" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta68" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1370,8 +1370,8 @@
                                                         <div class="form-group">
                                                             &nbsp;<br>
                                                             <asp:DropDownList ID="cboJefeTrabajadores" runat="server" class="form-control">
-                                                                <asp:ListItem Text="Sí" Value="1"></asp:ListItem>
-                                                                <asp:ListItem Text="No" Value="0"></asp:ListItem>
+                                                                <asp:ListItem Text="Sí" Value="true"></asp:ListItem>
+                                                                <asp:ListItem Text="No" Value="false"></asp:ListItem>
                                                             </asp:DropDownList>
                                                         </div>
                                                     </div>
@@ -1384,7 +1384,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta69" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta69" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1401,7 +1401,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta70" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta70" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1418,7 +1418,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta71" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta71" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1435,7 +1435,7 @@
                                                         <div class="col-sm-5">
                                                             <div class="form-group">
                                                                 &nbsp;<br>
-                                                                <asp:DropDownList ID="cboRespuesta72" runat="server" class="form-control">
+                                                                <asp:DropDownList ID="cboPregunta72" runat="server" class="form-control">
                                                                     <asp:ListItem Text="Siempre" Value="4"></asp:ListItem>
                                                                     <asp:ListItem Text="Casi siempre" Value="3"></asp:ListItem>
                                                                     <asp:ListItem Text="Algunas veces" Value="2"></asp:ListItem>
@@ -1537,7 +1537,7 @@
     function ServicioCliente() {
         $("[id$=cboServicioCliente]").on('change', function () {
             var valor = $(this).val();
-            if (valor === "0") {
+            if (valor === "false") {
                 divServicioCliente.style.display = "none";
             }
             else {
@@ -1549,7 +1549,7 @@
     function JefeTrabajadores() {
         $("[id$=cboJefeTrabajadores]").on('change', function () {
             var valor = $(this).val();
-            if (valor === "0") {
+            if (valor === "false") {
                 divJefeTrabajadores.style.display = "none";
             }
             else {

@@ -51,40 +51,40 @@ namespace FRP
         protected global::System.Web.UI.WebControls.DropDownList cboPregunta01;
 
         /// <summary>
-        /// cboRespuesta02 control.
+        /// cboPregunta02 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta02;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta02;
 
         /// <summary>
-        /// cboRespuesta03 control.
+        /// cboPregunta03 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta03;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta03;
 
         /// <summary>
-        /// cboRespuesta04 control.
+        /// cboPregunta04 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta04;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta04;
 
         /// <summary>
-        /// cboRespuesta05 control.
+        /// cboPregunta05 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta05;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta05;
 
         /// <summary>
         /// cboPregunta06 control.
@@ -96,526 +96,526 @@ namespace FRP
         protected global::System.Web.UI.WebControls.DropDownList cboPregunta06;
 
         /// <summary>
-        /// cboRespuesta07 control.
+        /// cboPregunta07 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta07;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta07;
 
         /// <summary>
-        /// cboRespuesta08 control.
+        /// cboPregunta08 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta08;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta08;
 
         /// <summary>
-        /// cboRespuesta09 control.
+        /// cboPregunta09 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta09;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta09;
 
         /// <summary>
-        /// cboRespuesta10 control.
+        /// cboPregunta10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta10;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta10;
 
         /// <summary>
-        /// cboRespuesta11 control.
+        /// cboPregunta11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta11;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta11;
 
         /// <summary>
-        /// cboRespuesta12 control.
+        /// cboPregunta12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta12;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta12;
 
         /// <summary>
-        /// cboRespuesta13 control.
+        /// cboPregunta13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta13;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta13;
 
         /// <summary>
-        /// cboRespuesta14 control.
+        /// cboPregunta14 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta14;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta14;
 
         /// <summary>
-        /// cboRespuesta15 control.
+        /// cboPregunta15 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta15;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta15;
 
         /// <summary>
-        /// cboRespuesta16 control.
+        /// cboPregunta16 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta16;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta16;
 
         /// <summary>
-        /// cboRespuesta17 control.
+        /// cboPregunta17 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta17;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta17;
 
         /// <summary>
-        /// cboRespuesta18 control.
+        /// cboPregunta18 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta18;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta18;
 
         /// <summary>
-        /// cboRespuesta19 control.
+        /// cboPregunta19 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta19;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta19;
 
         /// <summary>
-        /// cboRespuesta20 control.
+        /// cboPregunta20 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta20;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta20;
 
         /// <summary>
-        /// cboRespuesta21 control.
+        /// cboPregunta21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta21;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta21;
 
         /// <summary>
-        /// cboRespuesta22 control.
+        /// cboPregunta22 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta22;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta22;
 
         /// <summary>
-        /// cboRespuesta23 control.
+        /// cboPregunta23 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta23;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta23;
 
         /// <summary>
-        /// cboRespuesta24 control.
+        /// cboPregunta24 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta24;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta24;
 
         /// <summary>
-        /// cboRespuesta25 control.
+        /// cboPregunta25 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta25;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta25;
 
         /// <summary>
-        /// cboRespuesta26 control.
+        /// cboPregunta26 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta26;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta26;
 
         /// <summary>
-        /// cboRespuesta27 control.
+        /// cboPregunta27 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta27;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta27;
 
         /// <summary>
-        /// cboRespuesta28 control.
+        /// cboPregunta28 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta28;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta28;
 
         /// <summary>
-        /// cboRespuesta29 control.
+        /// cboPregunta29 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta29;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta29;
 
         /// <summary>
-        /// cboRespuesta30 control.
+        /// cboPregunta30 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta30;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta30;
 
         /// <summary>
-        /// cboRespuesta31 control.
+        /// cboPregunta31 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta31;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta31;
 
         /// <summary>
-        /// cboRespuesta32 control.
+        /// cboPregunta32 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta32;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta32;
 
         /// <summary>
-        /// cboRespuesta33 control.
+        /// cboPregunta33 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta33;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta33;
 
         /// <summary>
-        /// cboRespuesta34 control.
+        /// cboPregunta34 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta34;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta34;
 
         /// <summary>
-        /// cboRespuesta35 control.
+        /// cboPregunta35 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta35;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta35;
 
         /// <summary>
-        /// cboRespuesta36 control.
+        /// cboPregunta36 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta36;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta36;
 
         /// <summary>
-        /// cboRespuesta37 control.
+        /// cboPregunta37 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta37;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta37;
 
         /// <summary>
-        /// cboRespuesta38 control.
+        /// cboPregunta38 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta38;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta38;
 
         /// <summary>
-        /// cboRespuesta39 control.
+        /// cboPregunta39 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta39;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta39;
 
         /// <summary>
-        /// cboRespuesta40 control.
+        /// cboPregunta40 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta40;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta40;
 
         /// <summary>
-        /// cboRespuesta41 control.
+        /// cboPregunta41 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta41;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta41;
 
         /// <summary>
-        /// cboRespuesta42 control.
+        /// cboPregunta42 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta42;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta42;
 
         /// <summary>
-        /// cboRespuesta43 control.
+        /// cboPregunta43 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta43;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta43;
 
         /// <summary>
-        /// cboRespuesta44 control.
+        /// cboPregunta44 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta44;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta44;
 
         /// <summary>
-        /// cboRespuesta45 control.
+        /// cboPregunta45 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta45;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta45;
 
         /// <summary>
-        /// cboRespuesta46 control.
+        /// cboPregunta46 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta46;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta46;
 
         /// <summary>
-        /// cboRespuesta47 control.
+        /// cboPregunta47 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta47;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta47;
 
         /// <summary>
-        /// cboRespuesta48 control.
+        /// cboPregunta48 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta48;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta48;
 
         /// <summary>
-        /// cboRespuesta49 control.
+        /// cboPregunta49 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta49;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta49;
 
         /// <summary>
-        /// cboRespuesta50 control.
+        /// cboPregunta50 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta50;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta50;
 
         /// <summary>
-        /// cboRespuesta51 control.
+        /// cboPregunta51 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta51;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta51;
 
         /// <summary>
-        /// cboRespuesta52 control.
+        /// cboPregunta52 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta52;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta52;
 
         /// <summary>
-        /// cboRespuesta53 control.
+        /// cboPregunta53 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta53;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta53;
 
         /// <summary>
-        /// cboRespuesta54 control.
+        /// cboPregunta54 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta54;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta54;
 
         /// <summary>
-        /// cboRespuesta55 control.
+        /// cboPregunta55 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta55;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta55;
 
         /// <summary>
-        /// cboRespuesta56 control.
+        /// cboPregunta56 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta56;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta56;
 
         /// <summary>
-        /// cboRespuesta57 control.
+        /// cboPregunta57 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta57;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta57;
 
         /// <summary>
-        /// cboRespuesta58 control.
+        /// cboPregunta58 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta58;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta58;
 
         /// <summary>
-        /// cboRespuesta59 control.
+        /// cboPregunta59 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta59;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta59;
 
         /// <summary>
-        /// cboRespuesta60 control.
+        /// cboPregunta60 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta60;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta60;
 
         /// <summary>
-        /// cboRespuesta61 control.
+        /// cboPregunta61 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta61;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta61;
 
         /// <summary>
-        /// cboRespuesta62 control.
+        /// cboPregunta62 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta62;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta62;
 
         /// <summary>
-        /// cboRespuesta63 control.
+        /// cboPregunta63 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta63;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta63;
 
         /// <summary>
-        /// cboRespuesta64 control.
+        /// cboPregunta64 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta64;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta64;
 
         /// <summary>
         /// cboServicioCliente control.
@@ -627,40 +627,40 @@ namespace FRP
         protected global::System.Web.UI.WebControls.DropDownList cboServicioCliente;
 
         /// <summary>
-        /// cboRespuesta65 control.
+        /// cboPregunta65 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta65;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta65;
 
         /// <summary>
-        /// cboRespuesta66 control.
+        /// cboPregunta66 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta66;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta66;
 
         /// <summary>
-        /// cboRespuesta67 control.
+        /// cboPregunta67 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta67;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta67;
 
         /// <summary>
-        /// cboRespuesta68 control.
+        /// cboPregunta68 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta68;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta68;
 
         /// <summary>
         /// cboJefeTrabajadores control.
@@ -672,40 +672,40 @@ namespace FRP
         protected global::System.Web.UI.WebControls.DropDownList cboJefeTrabajadores;
 
         /// <summary>
-        /// cboRespuesta69 control.
+        /// cboPregunta69 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta69;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta69;
 
         /// <summary>
-        /// cboRespuesta70 control.
+        /// cboPregunta70 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta70;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta70;
 
         /// <summary>
-        /// cboRespuesta71 control.
+        /// cboPregunta71 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta71;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta71;
 
         /// <summary>
-        /// cboRespuesta72 control.
+        /// cboPregunta72 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboRespuesta72;
+        protected global::System.Web.UI.WebControls.DropDownList cboPregunta72;
 
         /// <summary>
         /// btnGuardar control.
