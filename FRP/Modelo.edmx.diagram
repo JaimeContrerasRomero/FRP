@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f8531eade46243dd84894f35c064d4b4" Name="Diagram1" ZoomLevel="59">
+      <Diagram DiagramId="f8531eade46243dd84894f35c064d4b4" Name="Diagram1" ZoomLevel="116">
         <EntityTypeShape EntityType="FRPModel.Cuestionario" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
